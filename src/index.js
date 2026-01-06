@@ -7,6 +7,9 @@ import PropsEx from "./PropsEx";
 import PropsExample2 from "./PropsExample2";
 import EventHandling from "./EventHandling";
 import UsestateExample from "./UsestateExample";
+import UseStateExample1 from "./UseStateExample1";
+import UsestateExample2 from "./UseStateExample2";
+import Todoexample from "./Todoexample";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -17,6 +20,9 @@ root.render(
     {/* <PropsEx /> */}
     {/* <PropsExample2 /> */}
     {/* <EventHandling /> */}
-    <UsestateExample />
+    {/* <UsestateExample /> */}
+    {/* <UseStateExample1 /> */}
+    {/* <UsestateExample2 /> */}
+    <Todoexample />
   </React.StrictMode>
 );
