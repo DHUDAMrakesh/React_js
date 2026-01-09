@@ -227,7 +227,7 @@ return(
                 const {id,title,url,thumbnailUrl}=eachobj
                 return(
                     <Profile key={id} id={id} title={title} url={url} thumbnailUrl={thumbnailUrl}/>
-
+                  
                 )
             })
         }

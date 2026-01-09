@@ -10,6 +10,9 @@ import UsestateExample from "./UsestateExample";
 import UseStateExample1 from "./UseStateExample1";
 import UsestateExample2 from "./UseStateExample2";
 import Todoexample from "./Todoexample";
+import UseEffectExample from "./UseEffectExample";
+import UseEffectAdvanced from "./UseEffectAdvanced";
+import UseEffectExample1 from "./UseEffectExample1";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -23,6 +26,9 @@ root.render(
     {/* <UsestateExample /> */}
     {/* <UseStateExample1 /> */}
     {/* <UsestateExample2 /> */}
-    <Todoexample />
+    {/* <Todoexample /> */}
+    {/* <UseEffectExample /> */}
+    {/* <UseEffectAdvanced /> */}
+    <UseEffectExample1 />
   </React.StrictMode>
 );
