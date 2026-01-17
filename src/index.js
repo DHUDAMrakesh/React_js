@@ -13,6 +13,7 @@ import Todoexample from "./Todoexample";
 import UseEffectExample from "./UseEffectExample";
 import UseEffectAdvanced from "./UseEffectAdvanced";
 import UseEffectExample1 from "./UseEffectExample1";
+import UseEffectExample2 from "./UseEffectExample2";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -29,6 +30,7 @@ root.render(
     {/* <Todoexample /> */}
     {/* <UseEffectExample /> */}
     {/* <UseEffectAdvanced /> */}
-    <UseEffectExample1 />
+    {/* <UseEffectExample1 /> */}
+    <UseEffectExample2 />
   </React.StrictMode>
 );

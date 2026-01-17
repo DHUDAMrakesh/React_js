@@ -204,3 +204,25 @@ gap: 15px;
             cursor: pointer;
             margin-left: 5px;
   }
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 10px;
+  
+  }
+  li,img{
+      width: 100%;
+    max-width: 350px;
+  }
+  .text{
+    text-align: center;
+    background: #ab9595;
+    border: none;
+    border-radius: 5px;
+    font-size: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .count{
+    font-size: bold;
+    
+  }
