@@ -27,28 +27,30 @@ const UseEffectExample2 = () => {
         }
     }
     useEffect(() => {
+        if(!searchTerm.trim()){
+            setDrinks([])
+            setIsError({status:false,msg:""})
+            return
+        }
         const UpdatedURL = `${URL}${searchTerm}`
         FetchingData(UpdatedURL)
     }, [searchTerm])
 
 
+
     return (
 
         <div>
-            <input type="text" name="search drinks" id="drinks" placeholder='search drinks' value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}
+            <input type="text" name="search drinks" id="drinks" placeholder='search drinks' className='input' value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)}
 
             />
-
-
             <div className="count">
-                Count:{drinks.length}
+                Number of drinks available:{drinks.length}
             </div>
-
-            {loader && <h2>Loading....</h2>}
-
-
+            {drinks.length === 0 && <h1>search your drinks  </h1>}
+            {loader && <h2 className='loading'>Loading....</h2>}
             {!loader && isError.status && (
-                <h3 style={{ color: "red" }}>{isError.msg}</h3>
+                <h3 className='error-msg'>{isError.msg}</h3>
             )}
 
             {!loader && !isError.status && <ul className='container'>
@@ -67,6 +69,7 @@ const UseEffectExample2 = () => {
 
         </div>
     )
+  
 }
 
 export default UseEffectExample2

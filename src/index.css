@@ -127,6 +127,10 @@ gap: 15px;
             cursor: pointer;
         } */
 
+
+        body{
+            background: rgb(204, 150, 159);
+        }
         form{
             width: 100%;
             justify-content: center;
@@ -224,5 +228,24 @@ gap: 15px;
   }
   .count{
     font-size: bold;
-    
+margin-top: 10px;
+text-align: center;}
+  h1{
+    color: rgb(17, 16, 16);
+    text-align: center;
+
+  }
+  .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+  }
+  .loading{
+    text-align: center;
+  }
+.error-msg{
+color: rgb(218, 15, 110);
+    text-align: center;
   }
