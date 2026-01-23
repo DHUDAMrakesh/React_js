@@ -19,6 +19,11 @@ import HomeComponent from "./Context/HomeComponent";
 import Counter from "./ContextExample2/Counter";
 import Header from "./ContextExample3/Header";
 import ProductComponent from "./Context/ContextExample4/ProductComponent";
+import UseReducerBasics from "./UseReducer/UseReducerBasics";
+import Example1 from "./UseReducer/Example1";
+import Example2 from "./UseReducer/Example2";
+import TodoList from "./UseReducer/TodoList";
+import Example3 from "./UseReducer/Example3";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -42,7 +47,11 @@ root.render(
   // <HomeComponent />,
   // <Counter />,
   // <Header />,
-  <ProductComponent />,
+  // <ProductComponent />,
+  // <UseReducerBasics />,
+  // <Example2 />,
+  // <TodoList />,
+  <Example3 />,
 );
 //   <UserContextProvider>
 //   </UserContextProvider>
