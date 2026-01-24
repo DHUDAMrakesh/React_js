@@ -24,6 +24,12 @@ import Example1 from "./UseReducer/Example1";
 import Example2 from "./UseReducer/Example2";
 import TodoList from "./UseReducer/TodoList";
 import Example3 from "./UseReducer/Example3";
+import UseRefHook from "./UseRefHook";
+import USeMemo from "./USeMemo";
+import Parent from "./PerformanceHooks/Parent";
+import PageTitleOne from "./CustomHooks/PageTitleOne";
+import FirstApi from "./CustomHooks/FirstApi";
+import SecondApi from "./CustomHooks/SecondApi";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -51,7 +57,13 @@ root.render(
   // <UseReducerBasics />,
   // <Example2 />,
   // <TodoList />,
-  <Example3 />,
+  // <Example3 />,
+  // <UseRefHook />,
+  // <USeMemo />,
+  // <Parent />,
+  // <PageTitleOne></PageTitleOne>,
+  <FirstApi />,
+  <SecondApi />,
 );
 //   <UserContextProvider>
 //   </UserContextProvider>

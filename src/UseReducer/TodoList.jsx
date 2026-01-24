@@ -1,7 +1,4 @@
 import React, {  useReducer,useState } from 'react'
-
-
-
 function reducer(state,action){
     switch(action.type){
         case 'ADD_TODO':
@@ -52,8 +49,6 @@ const[state,dispatch]=useReducer(reducer,InitialState);
 const [item,setItem]=useState("");
   return (
     <div>
-
-
       <input type="text"  value={item} onChange={(e)=>setItem(e.target.value)} />
          <button  onClick={()=>{
           if(state.editIndex===null){
